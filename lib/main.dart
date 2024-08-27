@@ -17,7 +17,7 @@ class BusinessCardAPP extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               ClipRRect(
-                borderRadius: BorderRadius.all(Radius.circular(200.0)),
+                borderRadius: const BorderRadius.all(Radius.circular(200.0)),
                 child: Image.asset(
                   'images/login.jpg',
                   width: 250.0,
@@ -26,24 +26,24 @@ class BusinessCardAPP extends StatelessWidget {
                 ),
               ),
               // SizedBox(height: 5.0),
-              Text(
+              const Text(
                 'Log in',
                 style: TextStyle(
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
-                  color: const Color.fromARGB(255, 0, 110, 199),
+                  color: Color.fromARGB(255, 0, 110, 199),
                   fontFamily: 'Caveat',
                 ),
               ),
-              Text(
+              const Text(
                 'Flutter Developer',
                 style: TextStyle(
-                  color: const Color.fromARGB(255, 166, 160, 160),
+                  color: Color.fromARGB(255, 166, 160, 160),
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Divider(
+              const Divider(
                 height: 40,
                 thickness: 2,
                 indent: 60,
@@ -54,14 +54,14 @@ class BusinessCardAPP extends StatelessWidget {
                     const EdgeInsets.symmetric(horizontal: 18.0, vertical: 8.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 233, 234, 236),
+                    color: const Color.fromARGB(255, 233, 234, 236),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   height: 65.0,
-                  child: Row(
+                  child: const Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Padding(padding: const EdgeInsets.only(left: 16)),
+                      Padding(padding: EdgeInsets.only(left: 16)),
                       Icon(
                         Icons.phone,
                         size: 35.0,
@@ -83,14 +83,14 @@ class BusinessCardAPP extends StatelessWidget {
                     const EdgeInsets.symmetric(horizontal: 18.0, vertical: 8.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 233, 234, 236),
+                    color: const Color.fromARGB(255, 233, 234, 236),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   height: 65.0,
-                  child: Row(
+                  child: const Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Padding(padding: const EdgeInsets.only(left: 16)),
+                      Padding(padding: EdgeInsets.only(left: 16)),
                       Icon(
                         Icons.mail,
                         size: 35.0,
